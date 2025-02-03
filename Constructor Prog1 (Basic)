@@ -1,0 +1,20 @@
+CLASS Car
+PUBLIC Model : STRING
+PUBLIC Year : INTEGER
+PUBLIC PROCEDURE NEW()
+Model <-- "Honda"
+Year <-- 2025
+ENDPROCEDURE
+
+PUBLIC PROCEDURE Display()
+OUTPUT "My car model is ",Model
+OUTPUT "My car year is ",Year
+ENDPROCEDURE
+
+ENDCLASS
+
+student1 <-- NEW Car()
+CALL student1.Display()
+OUTPUT student1.Model
+OUTPUT student1.Year
+
