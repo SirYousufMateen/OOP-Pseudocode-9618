@@ -1,0 +1,13 @@
+CLASS student
+PUBLIC PROCEDURE SName()
+OUTPUT "This is the student class"
+ENDPROCEDURE
+
+PUBLIC PROCEDURE Sclass()
+OUTPUT "This is A2 class"
+ENDPROCEDURE
+ENDCLASS
+
+student1 <-- NEW student()
+CALL student1.SName()
+CALL student1.Sclass()
